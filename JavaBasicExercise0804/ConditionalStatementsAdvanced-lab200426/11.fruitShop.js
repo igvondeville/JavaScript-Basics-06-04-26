@@ -1,23 +1,23 @@
-function fruitShop(fruit, dayFromWeek, quantity){
-    let price = 0; 
+function fruitShop(fruit, dayFromWeek, quantity) {
+    let price = 0;
     let workingDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
     let nonWorkingDays = ['Saturday', 'Sunday'];
 
     if (workingDays.includes(dayFromWeek)) {
 
-        if (fruit == 'banana'){
+        if (fruit == 'banana') {
             price = quantity * 2.50;
-        } else if (fruit == 'apple'){
+        } else if (fruit == 'apple') {
             price = quantity * 1.20;
-        } else if (fruit == 'orange'){
+        } else if (fruit == 'orange') {
             price = quantity * 0.85;
-        } else if (fruit == 'grapefruit'){
+        } else if (fruit == 'grapefruit') {
             price = quantity * 1.45;
-        } else if (fruit == 'kiwi'){
+        } else if (fruit == 'kiwi') {
             price = quantity * 2.70;
-        } else if (fruit == 'pineapple'){
+        } else if (fruit == 'pineapple') {
             price = quantity * 5.50;
-        } else if (fruit == 'grapes'){
+        } else if (fruit == 'grapes') {
             price = quantity * 3.85;
         } else {
             console.log('error');
@@ -26,19 +26,19 @@ function fruitShop(fruit, dayFromWeek, quantity){
 
     } else if (nonWorkingDays.includes(dayFromWeek)) {
 
-        if (fruit == 'banana'){
+        if (fruit == 'banana') {
             price = quantity * 2.70;
-        } else if (fruit == 'apple'){
+        } else if (fruit == 'apple') {
             price = quantity * 1.25;
-        } else if (fruit == 'orange'){
+        } else if (fruit == 'orange') {
             price = quantity * 0.90;
-        } else if (fruit == 'grapefruit'){
+        } else if (fruit == 'grapefruit') {
             price = quantity * 1.60;
-        } else if (fruit == 'kiwi'){
+        } else if (fruit == 'kiwi') {
             price = quantity * 3.00;
-        } else if (fruit == 'pineapple'){
+        } else if (fruit == 'pineapple') {
             price = quantity * 5.60;
-        } else if (fruit == 'grapes'){
+        } else if (fruit == 'grapes') {
             price = quantity * 4.20;
         } else {
             console.log('error');
