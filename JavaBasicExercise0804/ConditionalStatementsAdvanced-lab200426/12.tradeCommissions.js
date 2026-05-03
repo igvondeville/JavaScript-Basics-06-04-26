@@ -25,7 +25,7 @@ function tradeCom(town, quantity) {
 
         case 'Plovdiv':
             if (quantity <= 500) result = quantity * 0.055;
-            else if (quantity <= 1000) result = quantity * 0.08; // ⚠️ важно!
+            else if (quantity <= 1000) result = quantity * 0.08;
             else if (quantity <= 10000) result = quantity * 0.12;
             else result = quantity * 0.145;
             break;
