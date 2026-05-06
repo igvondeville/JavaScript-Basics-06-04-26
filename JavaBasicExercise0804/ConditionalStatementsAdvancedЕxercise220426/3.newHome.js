@@ -1,4 +1,4 @@
-function newHome(type, count, budget) {
+ function newHome(type, count, budget) {
     let flowerType = type;
     let flowerCount = count;
     let flowerBudget = budget;
