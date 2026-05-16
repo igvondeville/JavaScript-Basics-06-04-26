@@ -1,0 +1,7 @@
+function multiplyTable(num) {
+
+    for (let n = 1; n <= 10; n++) {
+        console.log(`${n} * ${num} = ${n * num}`)
+    }
+}
+multiplyTable(5);
